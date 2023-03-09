@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+
+.life-image{
+    width: 100vw;
+    height: 280px;
+    background-color: aqua;
+    /* background-image: url(/images/WhatsApp\ Image\ 2023-02-23\ at\ 9.55.26\ AM.jpeg);
+    background-position: center; */
+    position: relative;
+}
+
+.li-image{
+    width: 100%;
+    height: 280px;
+}
+/* .text{
+    width: 100vw;
+    height: 300px;
+} */
+
+.life-para{
+    position: absolute;
+    top: 1%;
+    padding: 30px 35px 30px 35px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 54px;
+    word-wrap: break-word;
+    color:#ffffff;
+    /* display: inline-block; */
+    min-width: 50%;
+    margin: 50px 0 10px 140px;
+}
+
+.redirect-link{
+    width: 100vw;
+    height: 67px;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 8.5rem;
+    color: #333333;
+}
+
+.home-link{
+    width: 1240px;
+    margin-top: 2rem;
+    /* background-color: brown; */
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+
+.home-link a{
+    text-decoration: none;
+    color:#333333 ;
+}
+
+.text-para{
+    width: 100vw;
+    padding-left:  8.5rem;
+    padding-bottom: 4rem;
+}
+
+.para{
+    width: 1240px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+    text-decoration: none solid rgb(108,131,162);
+    color: rgb(108,131,162);
+    word-wrap: break-word;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+/* ----------------for commute page----- */
+
+.text-para-headingH2{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 43px;
+    color: #0D1B46;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+
+/* ----------------------end----------- */
+
+/* -----------------for residential page--- */
+.text-para-headingH4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #0D1B46;
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+/* --------------------------------end--------- */
+
+
+/* --------------for curriculam--------- */
+.btn{
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    background-color: #E87E21;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #864104;
+}
+
+/* ----------------------------end-------------- */
+
+
+/* ---------------for career page---------------- */
+
+.job-link{
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.job-link:hover{
+    color: #E87E21;
+}
+
+
+.job-para{
+    margin-left: 40%;
+    margin-top: 7rem;
+    margin-bottom: 0;
+}
+
+.text-para-1{
+    width: 100vw;
+    padding-left:  8.5rem;
+    padding-bottom: 0;
+
+}
+
+.para a{
+    text-decoration: none;
+    color: #333333;
+
+}
+
+.para a:hover{
+    color: #E87E21;
+}
+/* --------------------------end------------------ */
+.row-1 ,.row-2,.row-3 ,.row-4 ,.row-5{
+    width: 100vw;
+    padding: 0 7.8rem;
+    margin-top: 2rem;
+    
+}
+
+/* .row-1 img,.row-2 img ,.row-3 img ,.row-4 img,.row-5 img{
+    width: 288px;
+    height: 216px;
+} */
+
+/* .row-1 div ,.row-2 div,.row-3 div,.row-4 div,.row-5 div{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+} */
+
+.footer-content{
+    width: 100vw;
+    height: 364px;
+    font-size: 16px;
+    margin-top: 9rem;
+    line-height: 26px;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    color: #ffffff;
+    background-image:linear-gradient(rgba(31, 44, 81, 0.9),rgba(20, 48, 78, 0.9)), url('/images/footer-image.jpg');
+    
+}
+
+.footer-content .column{
+    width: 195px;
+    height: 264px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-content .column h4{
+    margin-bottom: 20   px;
+}
+
+.footer-content .column a ,.footer-content .column span{
+    text-decoration: none;
+    font-size:  10px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #ffffff;
+    border-bottom:1px solid  #ffffff;
+}
+
+.footer-content .column p{
+    font-size: 13px;
+    line-height: 22.4px;
+    margin: 20px 0 8px 0;
+}
+
+.copyright-info{
+    width: 100vw;
+    height: 90.4px;
+    padding-left: 8.5rem;
+    padding-top: 2rem;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0D1B46;
+    
+}
+
+
+.container-hover{
+    width: 288px;
+    height: 216px;
+    position: relative;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+ }
+
+ .image-hover{
+    width: 288px;
+    height: 216px;
+    display: block;
+ }
+
+ .overlay{
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: #ffffff;
+ }
+
+ .text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    /* background-color: aqua; */
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 4px;
+    clear: both;
+    padding-left: 20px;
+    
+ }
+
+ .text a{
+    color: black;
+    /* position: absolute; */
+    /* top: 45%; */
+    /* left: 30%;  */
+    /* text-align: center; */
+    text-decoration: none;
+    
+ }
+
+ 
+
+ /* .overlaybottom{
+    width: 86%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 20px solid grey;
+    
+
+ } */
+
+ .overlayfading{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 20px solid rgb(179, 175, 175);
+ }
+
+ /* .container-hover:hover .overlaybottom{
+    height: 81.5%;
+ } */
+
+ .container-hover:hover .overlay{
+    opacity: 0.9;
+ }
+ /* ------------------------------------------------------ */
+
+ .icon{
+    top: 60%;
+    right: 0;
+    position: fixed;
+    background-color: rgba(245, 248, 245, 0.3);
+    z-index: 100;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 240px;
+    border-radius: 6px 0 0 6px;
+ }
+
+ /* .icon ul{
+    padding: initial;
+ } */
+
+ .icon ul li{
+   list-style-type: none;
+   height: 27px;
+   width: 27px;
+   padding-left: 6px;
+   padding-top: 6px;
+   margin-top: 5px;
+   padding-right: 16px;
+   padding-bottom: 6px;
+   
+ }
+
+ .icon ul a{
+    text-decoration: none;
+    color: rgb(3, 26, 64);
+ }
+
+ .icon ul li:hover{
+    color: orange;
+ }

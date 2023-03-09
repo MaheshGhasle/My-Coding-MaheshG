@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <style>
+     .container-hover{
+        width: 288px;
+        height: 216px;
+        position: relative;
+        display: inline-block;
+     }
+
+     .image-hover{
+        width: 288px;
+        height: 216px;
+        display: block;
+     }
+
+     .overlay{
+        position: absolute;
+        transition: all 0.3s ease;
+        opacity: 0;
+        background-color: #ffffff;
+     }
+
+     .text{
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 30%; 
+        text-align: center;
+        background-color: aqua;
+        
+     }
+
+     
+
+     .overlaybottom{
+        width: 86%;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #ffffff;
+        border: 20px solid grey;
+        
+
+     }
+
+     .overlayfading{
+        width: 86%;
+        height: 81.5%;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        border: 20px solid grey;
+     }
+
+     .container-hover:hover .overlaybottom{
+        height: 81.5%;
+     }
+
+     .container-hover:hover .overlay{
+        opacity: 0.8;
+     }
+
+
+     /* ------------------------------------------------------ */
+
+     .icon{
+        top: 50%;
+        right: 0;
+        position: fixed;
+        background-color: rgb(190, 224, 190);
+        z-index: 100;
+        transform: translateY(-50%);
+
+        
+     }
+
+     .icon ul{
+        padding: initial;
+     }
+
+     .icon ul li{
+       list-style-type: none;
+       height: 27px;
+       width: 27px;
+       padding-left: 15px;
+       padding-top: 6px;
+       margin-top: 5px;
+       padding-right: 10px;
+     }
+   </style>
+</head>
+<body>
+    <header>
+    <div class="container-hover">
+        <img src="/Android-Training.jpg" alt="" class="image-hover">
+        <div class="overlay overlaybottom">
+            <div class="text"><a href="#" >Link Goes Here</a></div>
+        </div>
+    </div>
+
+    <div class="container-hover">
+        <img src="/Android-Training.jpg" alt="" class="image-hover">
+        <div class="overlay overlayfading">
+            <div class="text"><a href="#">Link Goes Here</a></div>
+        </div>
+    </div>
+
+    <!-- floting icons -->
+    <div class="icon">
+        <ul>
+            <a href="#"><li><i class="fa fa-facebook-official" style="font-size:27px"></i></li></a>
+            <a href="#"><li><i class="fa fa-instagram" style="font-size:27px"></i></li></a>
+            <a href="#"><li><i class="fa fa-linkedin-square" style="font-size:27px"></i></i></li></a>
+            <a href="#"><li><i class="fa fa-youtube-play" style="font-size:27px"></i></li></a>
+            <a href="#"><li><i class="fa fa-pinterest" style="font-size:27px"></i></li></a>
+            <a href="#"><li><i class="fa fa-tumblr" style="font-size:27px"></i></li></a>
+            <a href="#"><li><i class="fa fa-twitter-square" style="font-size:27px"></i></li></a>
+        </ul>
+    </div>
+
+    </header>
+</body>
+</html>

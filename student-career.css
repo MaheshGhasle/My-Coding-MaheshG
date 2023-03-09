@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Raleway';
+}
+
+.student-container{
+    width: 100vw;
+    /* height: 100vh; */
+    /* background-color: #0d3453; */
+    background-color: #5fdad3;
+    /* padding-left: 185px; */
+    color: #747474;
+}
+
+.student-header{
+    width: 100vw;
+    height: 91px;
+    background-color: #0d3453;
+    /* margin-left:185px; */
+    /* marging according to PC */
+    /* margin-right: 185px; */
+    padding-top: 25px;
+     padding-left: 270px; 
+}
+
+.university-logo{
+    height: 41px;
+    width: 197px;
+}
+
+.student-form{
+    height: 437px;
+    /* according to PC */
+    background-color: #ffffff;
+    /* margin: 0 420px; */
+    width: 700px;
+    /* according to PC */
+    margin-left: 400px;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    padding: 5px;
+
+    
+}
+
+.student-form-heading img{
+    width:  140px;
+    height: 71px;
+    text-align: center;
+    /* margin-top: 16px; */
+    /* margin-left: 300px; */
+    /* margin-bottom: 10px; */
+}
+
+.student-form-heading{
+    border-bottom: 1px dashed #747474;
+    padding: 20px 12px 20px 11px;
+    margin: 0 8px 0 8px;
+    text-align: center;
+    width: 684px;
+    
+
+}
+.student-form-heading h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center  ;
+    margin-bottom: 14px;
+}
+
+.student-form-heading span{
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 25px; */
+    /* margin-left: 150px; */
+}
+
+
+.student-form-input{
+    /* margin-top: 40px; */
+    padding: 20px 12px 20px 11px;
+    margin: 0 8px 0 8px;
+    width: 684px;
+
+}
+
+.student-form-input-1{
+    padding: 20px 12px 20px 30px;
+}
+
+.student-form-input-1 .inp{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 600px;
+    margin-bottom: 15px;
+    /* border-radius: 3px; */
+}
+
+.student-form-input-1 .log{
+    background-color: #0d3453;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    border: none;
+}
+
+.student-form-input-1 .log:hover{
+    background-color: rgb(116, 184, 14);
+
+}
+
+.student-main-footer{
+    width: 100vw;
+    background-color: #0d3453;
+    padding-left: 270px;
+}
+
+.student-footer{
+    width: 980px;
+    height: 50px;
+    background-color: #ffffff;
+    /* margin: 0 270px; */
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #747474;
+    border-top: 1px solid #d6d3d3;
+    
+}
+
+.student-footer-text{
+    padding-right: 180px;
+}
+
+.student-footer-text-1{
+    padding-right: 200px;
+}
+

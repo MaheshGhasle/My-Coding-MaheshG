@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.lower-container{
+    width: 1123px;
+    height: 650px;
+    margin-left: 200px;
+    
+}
+
+.back-div-upper{
+    height: 135px;
+    width: 1123px;
+    background-color: #1063f2;
+}
+
+.back-div-lower{
+    width: 1123px;
+    height: 555px;
+    background-color: #e4e2e2;
+}
+
+
+.upper-container{
+    position: absolute;
+    top: 2%;
+    /* left: 17%; */
+    margin-left: 16px;
+}
+
+.upper-container-header{
+    position: relative;
+    height: 85px;
+    width: 1076px;
+    /* background-color: aqua; */
+}
+
+.upper-container-header-h2,.upper-container-header-img{
+    display: inline-block;
+    /* margin-top: 50px; */
+    /* height: 72px; */
+}
+
+.upper-container-header-img img {
+    width: 128px;
+    height: 85px;
+    background-color: #ffffff;
+}
+
+.upper-container-header-h2{
+     padding-top: 40px;
+    /* padding-bottom: 30px; */
+    margin-bottom: 50px;
+    padding-left: 120px;
+    /* background-color: cadetblue; */
+    margin-top: 2px;
+    position: absolute;
+    top: 0;
+    height: 85px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    word-spacing: 2px;
+}
+
+.upper-container-content{
+    height: 283px;
+    width: 1092px;
+    position: relative;
+    margin-top: 20px;
+    background-color:#ffffff;
+}
+
+.div-image ,.div-content{
+    display: inline-block;
+    /* width: 456px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.div-image img{
+    width: 508px;
+    height:254px ;
+}
+
+.div-content{
+    position: absolute;
+    top:0 ;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-left: 1px solid dimgray;
+}
+
+.div-content h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.div-content label{
+    font-size: 12px;
+    font-weight: 600;
+     
+}
+
+.div-content input{
+    width: 330px;
+    height: 37px;
+    margin-bottom: 15px;
+}
+
+.log-content{
+    /* padding: 13px 63px 13px 63px; */
+    background-color: #1063f2;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.log-content:hover{
+    background-color: #3c7eef;
+}
+
+.div-content a{
+    text-decoration: none;
+    font-size: 16px;
+    color: dimgray;
+    margin-left: 20px;
+
+}
+
+.div-content a:hover{
+    text-decoration: underline solid dimgray;
+}
+.lower-container-content-button ,.lower-container-content-para{
+    display: inline-block;
+    /* background-color: #1063f2; */
+    /* width: 400px; */
+}
+
+.lower-container-content-para{
+    width: 708px;
+    height: 147px;
+}
+
+.lower-container-content-button{
+    /* height: 219px; */
+    width: 364px;
+    padding: 10px 40px 0px 40px;
+    
+}
+
+
+.lower-container-content{
+    width:1092px;
+    height: 233px;
+    /* background-color: #1063f2; */
+    margin-top: 10px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.lower-container-content-button h3{
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.lower-container-content-button b{
+        font-size: 14px;
+        font-weight: 600;
+        /* margin-bottom: 20px; */
+}
+
+.know-btn{
+    text-align: center;
+    background-color: black;
+    border: none;
+    padding:10px 30px 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1063f2;
+    border-radius: 2px;
+}
+
+.know-btn:hover{
+    background-color: #3c7eef;
+}
+
+.lower-container-content-para{
+    color: #2c2c2c;
+    text-align: justify;
+    padding: 20px 10px 20px 10px;
+    border-left:1px solid dimgray ;
+    height: 233px;
+    position: absolute;
+    top: 0;
+}
+
+.footer-parentportal ul li{
+    display: inline;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    list-style: none;
+}
+
+.footer-parentportal ul{
+    display: inline-block;
+    margin-left: 940px;
+    /* margin-bottom: 10px; */
+    
+    
+}
+
+.footer-parentportal span{
+    margin-left: 500px;
+    padding-top: 10px;
+}
+
+.footer-parentportal{
+    /* padding: 10px; */
+    /* background-color: #1063f2; */
+    height: 30px;
+    width: 1092px;
+}

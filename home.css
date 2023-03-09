@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Header Start here */
+.hero-div{
+    padding: 30px 50px;
+    background-color: rgba(37, 37, 65, 0.623);
+}
+.hero-div .card:hover{
+    background-color: rgb(238, 238, 238);
+}
+.hero-div .card-body a{
+    text-decoration: none;
+    color: rgb(69, 26, 109);
+}
+.hero-div .card-body a img{
+    margin-top: 15px;
+}
+.hero-div .card-body h6{
+    text-align: center
+}
+.hero-div .compuse{
+    padding: 20px 10px;
+}
+.hero-div .compuse h2{
+    color: white;
+}
+.hero-div .compuse p{
+    color: #e87e21;
+}
+/* Hero Header Start here */
+
+/*  Welcome div Start here  */
+.welcome-div{
+    padding: 90px 80px;  
+    text-align: justify;
+}
+.welcome-div p, .welcome-div span{
+    color: rgb(151, 144, 144);
+}
+.welcome-div button{
+    padding: 13px 20px;
+    background-color: #e87e21;
+    color: white;
+    font-size: small;
+    border: none;
+}
+.welcome-div .wel-division{
+    padding-right: 50px;
+}
+.welcome-div .extra-division{
+    padding-left: 40px;
+}
+.welcome-div .card{
+    text-align: center;
+    height: 350px;
+}
+.welcome-div .card img{
+    height: 100%;
+}
+.welcome-div .card .play{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-top: -225px;
+    margin-left: 35%;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.612);
+}
+.welcome-div .card .play .play-btn{
+    width: 66%;
+    height: 66%;
+    margin: 17% 0px 0px 17%;
+    border-radius: 50%;
+    background-color: #e87e21;
+}
+.welcome-div .card .card-img-overlay{
+    height: 50%;
+    margin-top: 40%;
+    padding-top: 80px;
+    background-color: rgba(92, 95, 134, 0.639);
+}
+.welcome-div .card .card-img-overlay p{
+    color: rgb(190, 186, 186);
+}
+.welcome-div .extra{
+    width: 100%;
+}
+.welcome-div .extra p{
+    display: block;
+}
+.welcome-div .extra .e{
+    color: #e87e21;
+    font-size: 70px;
+    font-weight: bolder;
+    float: left;
+    margin-top: -22px;
+    margin-right: 20px;
+}
+/*  Welcome div Ends here  */
+
+/* News and Events Start here */
+.news-event .news{
+    width: 100%;
+    height: 200px;
+    background-image: url(images/News-bg.jpg);
+    background-position: 250px;
+    background-size: 100%;
+}
+.news-event .news .upper-news{
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px 0px 80px;
+    background-color: #3a486ae4;
+}
+.news-event .news h6{
+    color: #e87e21;
+}
+.news-event .news h2{
+    color: white;
+}
+/* News and Events Ends here */
+
+/* Contact us Start here */
+.contact-us{
+    background-image: url(images/contact-bg.jpg);
+    background-size: cover;
+    margin: 20px 0px 20px 0px;
+}
+.contact-us .contact{
+    width: 40%;
+    padding: 50px;
+    margin-left: 10%;
+    float: left;
+    background-color: #f7f6f9;
+}
+.contact-us .contact input{
+    outline: none;
+    width: 200px;
+    height: 45px;
+    margin: 10px 15px 5px 0px;
+}
+.contact-us .contact select{
+    width: 200px;
+    height: 45px;
+    margin: 10px 15px 5px 0px;
+}
+.contact-us .contact textarea{
+    width: 200px;
+    outline: none;
+    margin: 10px 0px 5px 0px;
+}
+.contact-us .contact button{
+    border: none;
+    background-color: #ff8700;
+    font-size: 13px;
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+}
+.contact-us .contact button:hover{
+    background-color: #ff9822;
+}
+.contact-us .achiver{
+    width: 40%;
+    display: inline-block;
+    background-image: url(images/achivements-bg.jpg); 
+}
+.contact-us .achiver .achive-content{
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: #0d1b468f;
+}
+.contact-us .achiver .achive-content h2{
+    color: white;
+}
+.contact-us .achiver .achive-content .card{
+    margin-top: 38px;
+}
+/* Contact us Ends here */
+
+/* Acadamic Start here */
+
+.aca{
+    width: 100%;
+}
+
+.academic h2{
+    text-align: center;
+}
+
+.academic .card a{
+    text-decoration: none;
+    color: black;
+}
+.academic .card h5{
+    text-align: center;
+}
+.academic .card span{
+    font-size: 12px;
+    /* border-top: 1px solid gray; */
+}
+.academic .card button{
+    float: right;
+    padding: 8px 25px;
+    color: #ff8802;
+    font-size: 14px;
+    border: none;
+    border-left: 1px solid gray;
+    background-color: white;
+}
+.academic .card button:hover{
+    color: white;
+    background-color: #ff8802;
+}
+/* Acadamic Ends here */

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>close</title>
+    <style>
+       .modal {
+         position: fixed;
+        top: 30vh;
+        left: 5%; 
+        width: 90%;
+        z-index: 100;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        animation: float-in 0.3s ease-out forwards;
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+       }
+
+       .modal h2 {
+        padding: 1rem;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .modal p {
+        margin: 0;
+        padding: 0 1rem;
+      }
+
+      .modal button {
+        align-self: flex-end;
+        margin: 0.5rem;
+      }
+
+        .info-modal{
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+
+        .and{
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+
+        #backdrop{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(245, 238, 238);
+            pointer-events: none;
+            display: none;
+            position: fixed;
+        }
+
+        #backdrop.visible{
+            display: block;
+            pointer-events: all;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="backdrop"></div>
+    <div class="main">
+        <a href="#" data-text="That means that code is not pre-compiled but instead evaluated, compiled and executed at runtime (e.g. when the browser executes the script)." class="info-modal">Dynamic,interpreted</a> <span class="and">and</span> <a href="#" data-text="Weakly typed languages assign types (like 'number') to variables (data containers) at runtime - i.e. you (the developer) can't set the types you want to use in certain places in advance. Only indirectly by making sure you're always working with the correct values." class="info-modal">Weakly typed</a>
+    </div>
+
+    <script>
+        const backDropElement = document.getElementById("backdrop");
+        const modallinkElement = document.querySelectorAll('.info-modal');
+        let infoModal;
+
+        function toggleBackdrop(){
+            backDropElement.classList.toggle("visible");
+        }
+        
+        function presentInfoModal(event){
+            const text = event.target.dataset.text;
+            toggleBackdrop();   
+            infoModal = document.createElement('div');
+            infoModal.classList.add('modal');
+            infoModal.innerHTML=`
+            <h2>more details</h2>
+            <p>${text}<p/>`;
+             const closeButton = document.createElement('button');
+            closeButton.addEventListener("click" , hideInfoModal);
+            closeButton.textContent = "Okay"
+            infoModal.appendChild(closeButton);
+            document.body.appendChild(infoModal);
+        }
+        
+        function hideInfoModal(){
+            toggleBackdrop();
+            document.body.removeChild(infoModal);
+        }
+
+        for( const linkElement of modallinkElement){
+            linkElement.addEventListener("click" , presentInfoModal);
+        }
+
+        backDropElement.addEventListener("click" , hideInfoModal);
+
+
+    </script>
+</body>
+</html>
